@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "4.66.0"
+  version: "4.67.1"
 
 package:
   name: nxstools
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxstools/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 338ed674249fc9829453bb5af7a46a31c3613984ac19f5538f3e78bd24f2e01f
+  sha256: 69fbb287d0faaa327ef083a686f4c5cdaa0ca9f5eae67d0a21470d89377518a9
 
 build:
   noarch: python
